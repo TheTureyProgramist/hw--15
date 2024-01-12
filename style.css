@@ -1,0 +1,49 @@
+.holder {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+.item:first-child {
+    background-color: rgb(174, 0, 255);
+    order: 5;
+    flex-grow: 2;
+}
+
+.item {
+    display: flex;
+    padding-top: 150px;
+    padding-left: 200px;
+    padding-right: 230px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.item:nth-child(2) {
+    display: flex;
+    background-color: rgb(135, 167, 235);
+    order: 9;
+    flex-grow: 1;
+}
+
+.item:last-child {
+    display: flex;
+    background-color: orange;
+    order: 9;
+    flex-grow: 2;
+}
+
+.item:nth-child(3) {
+    display: flex;
+    background-color: green;
+    order: 9;
+    flex-grow: 1;
+}
+
+.item:nth-child(4) {
+    display: flex;
+    background-color: red;
+    order: 9;
+    flex-grow: 1;
+}
